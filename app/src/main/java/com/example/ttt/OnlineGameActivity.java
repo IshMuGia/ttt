@@ -1,4 +1,4 @@
-package com.merp.tictactoe;
+package com.example.ttt;
 
 import android.content.Context;
 import android.content.Intent;
@@ -593,11 +593,11 @@ public class OnlineGameActivity extends AppCompatActivity {
         if (hasAWinner) {
             Log.i(TAG, "endGame: Player " + gameWinner + " WINS!");
             Toast.makeText(this, "Game Over ! Player " + gameWinner + " WINS!", Toast.LENGTH_LONG).show();
-            startActivity(new Intent(this, com.merp.tictactoe.MainMenuActivity.class));
+            startActivity(new Intent(this, com.example.ttt.MainMenuActivity.class));
             finish();
         } else {
             Log.i(TAG, "endGame: its a draw");
-            startActivity(new Intent(this, com.merp.tictactoe.MainMenuActivity.class));
+            startActivity(new Intent(this, com.example.ttt.MainMenuActivity.class));
             finish();
         }
     }

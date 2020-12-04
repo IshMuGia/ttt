@@ -1,4 +1,4 @@
-package com.merp.tictactoe;
+package com.example.ttt;
 
 import android.content.Context;
 import android.content.Intent;

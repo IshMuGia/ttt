@@ -1,4 +1,4 @@
-package com.merp.tictactoe;
+package com.example.ttt;
 
 import android.app.AlertDialog;
 import android.content.Context;
@@ -182,7 +182,7 @@ public class InGameActivity extends AppCompatActivity {
                     public void onClick(DialogInterface dialogInterface, int i) {
                         //go to main menu
                         Log.i(TAG, "onClick: should go to menu");
-                        startActivity(new Intent(context, com.merp.tictactoe.MainMenuActivity.class));
+                        startActivity(new Intent(context, com.example.ttt.MainMenuActivity.class));
                         finish();
                     }
                 })
